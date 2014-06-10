@@ -1,4 +1,4 @@
-# grunt-init-mvc
+# grunt-init-mvc (A backbone boilerplate that uses 'true-mvc')
   * Version 0.0.0-alpha-unstable
   * Uses: backbone, backbone.marionette, requirejs, ...
   * Requires grunt-init
