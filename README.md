@@ -1,6 +1,6 @@
-# grunt-init-mvc 
+# grunt-init-mvc
 *A backbone boilerplate that uses 'true-mvc'*
-  * Version 0.0.0-alpha-unstable
+  * Version 1.0.0-beta
   * Uses: backbone, backbone.marionette, requirejs, ...
   * Requires grunt-init
 
@@ -12,5 +12,3 @@ After going through various websites, tutorials, and books I've discovered that 
 `git clone https://github.com/gruntjs/grunt-init-mvc.git ~/.grunt-init/mvc`
 
 Then go to your project directory, and punch in `grunt-init mvc`
-
-
