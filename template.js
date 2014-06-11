@@ -6,20 +6,16 @@
  */
  'use strict';
 
- exports.description = 'Backbone Marionette Bootstrap MVC Scaffolding'
+exports.description = 'Backbone Marionette Bootstrap MVC Scaffolding'
 
- exports.template = function(grunt, init, done) {
+exports.warnOn = '*';
 
-   init.process({type: 'mvc'}), [
-     init.prompt('App Name'),
-
-   ], function(err, props) {
-     
-     //Files to copy
-     var files = init.filesToCopy(props);
-
-     //Copy the files
-     init.copyAndProcess(files, props);
-
-   }
- }
+exports.template = function(grunt, init, done) {
+  init.process({}, [
+    init.prompt('name')
+    ], function(err, props) {
+      var files = init.filesToCopy(props);
+      init.copyAndProcess(files, props);
+      done();
+    });
+}
