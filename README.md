@@ -1,6 +1,6 @@
 # grunt-init-mvc
 *A backbone boilerplate that uses 'true-mvc'*
-  * Version 1.0.0-beta
+  * Version 1.0.1-beta
   * Uses: backbone, backbone.marionette, requirejs, ...
   * Requires grunt-init
 
@@ -12,3 +12,7 @@ After going through various websites, tutorials, and books I've discovered that 
 `git clone https://github.com/gruntjs/grunt-init-mvc.git ~/.grunt-init/mvc`
 
 Then go to your project directory, and punch in `grunt-init mvc`
+
+## Changelog
+
+* Removed rename.json  ~1.0.1
